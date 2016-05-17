@@ -38,7 +38,7 @@ ul {
     display: inline-block;
     margin-top: 0; }
     .caja .content .square {
-      margin-top: -430px; }
+      margin-top: -368px; }
 
 .texto {
   margin-top: 20px;
@@ -255,5 +255,55 @@ section .articulo {
       font-family: "Oswald";
       color: #A0A0A0;
       font-size: 1em; }
+
+/*estilos de contact*/
+.map {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.post-item {
+  margin-left: 10px; }
+  .post-item p {
+    width: 250px; }
+  .post-item .direccion {
+    margin-left: 1px; }
+    .post-item .direccion h5 {
+      font-family: "Oswald";
+      color: #E8663C;
+      font-size: 1.2em; }
+
+input, textarea {
+  border: solid 1px #E8663C;
+  display: -webkit-box;
+  margin-bottom: 20px;
+  padding: 10px 5px; }
+
+form {
+  margin-top: 20px; }
+
+.submit {
+  background-color: #E8663C;
+  color: #ffffff;
+  padding: 10px 40px;
+  font-size: 1.5em;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  width: 377px; }
+
+*::-webkit-input-placeholder {
+  /* Google Chrome y Safari */
+  color: #E8663C; }
+
+*:-moz-placeholder {
+  /* Firefox anterior a 19 */
+  color: #E8663C; }
+
+*::-moz-placeholder {
+  /* Firefox 19 y superior */
+  color: #E8663C; }
+
+*:-ms-input-placeholder {
+  /* Internet Explorer 10 y superior */
+  color: #E8663C; }
 
 /*# sourceMappingURL=style.css.map */

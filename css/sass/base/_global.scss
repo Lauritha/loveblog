@@ -47,7 +47,7 @@ ul{
     	display: inline-block;
     	margin-top: 0;
     	.square{
-    		margin-top: -430px;
+    		margin-top: -368px;
     	}
     }
 }
@@ -313,4 +313,57 @@ section{
 		font-size: 1em;	
 		}
 	}
+}
+/*estilos de contact*/
+.map{
+	margin-top: $mr-top;
+	margin-bottom: $mr-top;
+}
+.post-item{
+	margin-left: 10px;
+	p{
+		width: 250px;
+	}
+	.direccion{
+		margin-left: 1px;
+		h5{
+		font-family: $oswald;
+		color: $rojo-oscuro;
+		font-size: 1.2em;
+		}
+	}
+}
+input, textarea{
+	border: solid 1px $rojo-oscuro;
+	display: -webkit-box;
+	margin-bottom: $mr-top;
+	padding: 10px 5px;
+}
+form{
+	margin-top: $mr-top;
+}
+.submit{
+	background-color: $rojo-oscuro;
+	color: #ffffff;
+	padding: 10px 40px;
+	font-size: 1.5em;
+	font-family: $oswald;
+	text-transform: uppercase;
+	width: 377px;
+}
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: $rojo-oscuro;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: $rojo-oscuro;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: $rojo-oscuro;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: $rojo-oscuro;
 }
