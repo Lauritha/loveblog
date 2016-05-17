@@ -1,0 +1,116 @@
+ul {
+  padding: 0;
+  margin-top: 40px; }
+  ul li {
+    display: inline-table; }
+    ul li a {
+      color: #999;
+      text-decoration: none;
+      font-family: oswald;
+      font-size: 18px;
+      margin-right: 20px;
+      margin-left: 20px; }
+      ul li a:hover {
+        text-decoration: none;
+        color: #E8663C; }
+
+.imagen-slider img {
+  vertical-align: middle;
+  width: 90%; }
+
+.logo a {
+  text-decoration: none; }
+  .logo a h1 {
+    color: #E8663C;
+    font-family: "Yanone Kaffeesatz";
+    font-size: 4em;
+    font-weight: bold; }
+    .logo a h1 span {
+      color: #EFADA0; }
+
+.caja {
+  width: 100%;
+  padding: 0 5%;
+  margin-top: 20px; }
+  .caja .content {
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 0; }
+    .caja .content .square {
+      margin-top: -430px; }
+
+.texto {
+  margin-top: 20px;
+  text-align: justify; }
+  .texto span {
+    color: #E8663C;
+    font-size: 20px;
+    font-family: "Oswald";
+    margin-left: 10px;
+    text-align: justify; }
+  .texto .abajo {
+    margin-left: 70px; }
+  .texto .abajo1 {
+    margin-left: 65px; }
+  .texto .icono-1 {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px; }
+  .texto .info {
+    width: 320px;
+    margin-bottom: 20px; }
+  .texto a {
+    text-decoration: none;
+    background-color: #E8663C;
+    color: #FFFFFF;
+    font-family: "Oswald";
+    padding: 3px 10px;
+    font-size: 14px;
+    margin-top: 20px; }
+    .texto a:hover {
+      background-color: #EFADA0; }
+
+section h2 {
+  font-family: "Oswald";
+  font-size: 18px;
+  color: #E8663C;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+  margin-right: 50px;
+  text-transform: uppercase;
+  margin-top: 50px; }
+section .superior {
+  margin-top: 20px;
+  border: solid 1px #A0A0A0;
+  width: 250px;
+  overflow: hidden; }
+section .post {
+  width: 260px;
+  height: 200px; }
+section .h-3 {
+  color: #A0A0A0;
+  font-size: 22px;
+  font-family: "Yanone Kaffeesatz";
+  margin: 10px 30px; }
+section .h-4 {
+  color: #E8663C;
+  font-size: 14px;
+  font-family: "Oswald";
+  margin: 10px 30px 20px 30px; }
+
+footer .rojo-claro {
+  background-color: #E8663C;
+  margin-top: 50px;
+  color: #FFFFFF;
+  padding: 30px 0px; }
+footer .single_footer {
+  width: 300px;
+  margin-left: 20px; }
+footer h2 {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  font-size: 22px; }
+
+/*# sourceMappingURL=style.css.map */

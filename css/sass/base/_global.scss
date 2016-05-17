@@ -1,0 +1,143 @@
+ul{
+	padding: 0;
+	margin-top: 40px;
+	li{
+	display: inline-table;
+		a {
+    	color: #999;
+    	text-decoration: none;
+    	font-family: oswald;
+    	font-size: 18px;
+    	margin-right: 20px;
+    	margin-left: 20px;
+    		&:hover{
+    			text-decoration:none;
+    			color: $rojo-oscuro;
+    		}
+		}
+	}
+}
+.imagen-slider{
+	img {
+    vertical-align: middle;
+    width: 90%;
+	}
+}
+.logo{
+	a{
+	text-decoration: none;
+	h1{
+		color: $rojo-oscuro;
+		font-family: $yanone;
+		font-size: 4em;
+		font-weight: bold;
+		span{
+			color: $rojo-claro;
+		}
+	}
+	}
+}
+.caja{
+	width: 100%;
+    padding: 0 5%;
+    margin-top: 20px;
+    .content{
+    	width: 40px;
+    	height: 30px;
+    	display: inline-block;
+    	margin-top: 0;
+    	.square{
+    		margin-top: -430px;
+    	}
+    }
+}
+.texto{
+	margin-top: 20px;
+	text-align: justify;
+	span{
+		color: $rojo-oscuro;
+		font-size: 20px;
+		font-family: $oswald;
+		margin-left: 10px;
+		text-align: justify;
+	}
+	.abajo{
+		margin-left: 70px;
+	}
+	.abajo1{
+		margin-left: 65px;
+	}
+	.icono-1{
+		margin-right: 10px;
+		height: 40px;
+		width: 40px;
+	}
+	.info{
+		width: 320px;
+		margin-bottom: 20px;
+	}
+	a{
+		text-decoration: none;
+		background-color: $rojo-oscuro;
+		color: #FFFFFF;
+		font-family: $oswald;
+		padding: 3px 10px;
+		font-size: 14px;
+		margin-top: 20px;
+		 	&:hover{
+				background-color: $rojo-claro;
+		 	}
+	}
+}
+section{
+	h2{
+		font-family: $oswald;
+		font-size: 18px;
+		color: $rojo-oscuro;
+		font-weight: bold;
+		margin-top: $mr-top;
+		display: inline-block;
+		margin-right: 50px;
+		text-transform: uppercase;
+		margin-top: 50px;
+	}
+	.superior{
+		margin-top: $mr-top;
+		border: solid 1px $gris;
+		width: 250px;
+		overflow: hidden;
+	}
+	.post{
+		width: 260px;
+		height: 200px;
+	}
+	.h-3{
+		color: $gris;
+		font-size: 22px;
+		font-family: $yanone;
+		margin: 10px 30px;
+	}
+	.h-4{
+		color: $rojo-oscuro;
+		font-size: 14px;
+		font-family: $oswald;
+		margin: 10px 30px 20px 30px;
+	}
+}
+footer{
+	.rojo-claro{
+		background-color: $rojo-oscuro;
+		margin-top: 50px;
+		color: #FFFFFF;
+		padding: 30px 0px;
+	}
+	.single_footer{
+		width: 300px;
+		margin-left: 20px;
+	}
+	h2{
+		font-family: $oswald;
+		text-transform: uppercase;
+		font-size: 22px;
+	}
+}
