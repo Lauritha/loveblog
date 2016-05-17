@@ -55,9 +55,8 @@ ul{
 	margin-top: 20px;
 	text-align: justify;
 	span{
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 20px;
-		font-family: $oswald;
 		margin-left: 10px;
 		text-align: justify;
 	}
@@ -91,9 +90,8 @@ ul{
 }
 section{
 	h2{
-		font-family: $oswald;
+		@include oswald;
 		font-size: 18px;
-		color: $rojo-oscuro;
 		font-weight: bold;
 		margin-top: $mr-top;
 		display: inline-block;
@@ -118,9 +116,8 @@ section{
 		margin: 10px 30px;
 	}
 	.h-4{
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 14px;
-		font-family: $oswald;
 		margin: 10px 30px 20px 30px;
 	}
 }
@@ -181,8 +178,7 @@ section{
 }
 .aside{
 	h5{
-		font-family: $oswald;
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 1.5em;
 		margin-top: 20px;
 	}
@@ -224,8 +220,7 @@ section{
 		margin-right: $mr-top;
 	}
 	h5{
-		font-family: $oswald;
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 1em;
 		margin-left: 100px;
 		margin-top: 20px;
@@ -246,8 +241,7 @@ section{
 		}
 	}
 	h4{
-		font-family: $oswald;
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 1.8em;
 		margin-top: 20px;
 	}
@@ -267,8 +261,7 @@ section{
 	display: -webkit-box;
 	margin-top: 40px;
 	h3{
-		font-family: $oswald;
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 1.6em;
 		margin-top: 5px;
 	}
@@ -303,8 +296,7 @@ section{
 		width: 230px;
 		margin-top: 5px;
 		h5{
-		font-family: $oswald;
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 1.2em;
 		}
 		h6{
@@ -327,8 +319,7 @@ section{
 	.direccion{
 		margin-left: 1px;
 		h5{
-		font-family: $oswald;
-		color: $rojo-oscuro;
+		@include oswald;
 		font-size: 1.2em;
 		}
 	}

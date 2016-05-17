@@ -44,9 +44,9 @@ ul {
   margin-top: 20px;
   text-align: justify; }
   .texto span {
+    font-family: "Oswald";
     color: #E8663C;
     font-size: 20px;
-    font-family: "Oswald";
     margin-left: 10px;
     text-align: justify; }
   .texto .abajo {
@@ -73,8 +73,8 @@ ul {
 
 section h2 {
   font-family: "Oswald";
-  font-size: 18px;
   color: #E8663C;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
   display: inline-block;
@@ -95,9 +95,9 @@ section .h-3 {
   font-family: "Yanone Kaffeesatz";
   margin: 10px 30px; }
 section .h-4 {
+  font-family: "Oswald";
   color: #E8663C;
   font-size: 14px;
-  font-family: "Oswald";
   margin: 10px 30px 20px 30px; }
 
 footer .rojo-claro {
