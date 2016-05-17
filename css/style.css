@@ -224,4 +224,36 @@ section .articulo {
     text-decoration: none;
     margin-bottom: 10px; }
 
+/*estilos de portfolio*/
+.photo3 {
+  width: 230px;
+  height: 150px;
+  padding: 3px;
+  border: solid 1px #A0A0A0; }
+
+.categoria {
+  display: inline-block;
+  margin-bottom: 30px; }
+  .categoria h2 {
+    font-family: "Oswald";
+    color: #E8663C;
+    font-size: 2em;
+    margin-top: 20px; }
+
+.cartelera {
+  margin-bottom: 20px; }
+  .cartelera .descripcion {
+    padding: 5px;
+    border: solid 1px #A0A0A0;
+    width: 230px;
+    margin-top: 5px; }
+    .cartelera .descripcion h5 {
+      font-family: "Oswald";
+      color: #E8663C;
+      font-size: 1.2em; }
+    .cartelera .descripcion h6 {
+      font-family: "Oswald";
+      color: #A0A0A0;
+      font-size: 1em; }
+
 /*# sourceMappingURL=style.css.map */

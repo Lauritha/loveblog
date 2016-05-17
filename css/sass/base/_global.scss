@@ -278,3 +278,39 @@ section{
 		margin-bottom: 10px;
 	}
 }
+/*estilos de portfolio*/
+.photo3{
+	width: 230px;
+	height: 150px;
+	padding: 3px;
+	border: solid 1px $gris;
+}
+.categoria{
+	display: inline-block;
+	margin-bottom: 30px;
+	h2{
+		font-family: $oswald;
+		color: $rojo-oscuro;
+		font-size: 2em;
+		margin-top: 20px;
+	}
+}
+.cartelera{
+	margin-bottom: $mr-top;
+	.descripcion{
+		padding: 5px;
+		border: solid 1px $gris;
+		width: 230px;
+		margin-top: 5px;
+		h5{
+		font-family: $oswald;
+		color: $rojo-oscuro;
+		font-size: 1.2em;
+		}
+		h6{
+		font-family: $oswald;
+		color: $gris;
+		font-size: 1em;	
+		}
+	}
+}
