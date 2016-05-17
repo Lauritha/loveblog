@@ -171,4 +171,57 @@ section .articulo {
 .aside .linea-2 img {
   border: solid 1px #E8663C; }
 
+/*estilos de blog*/
+.entrada1 {
+  margin-top: 20px; }
+  .entrada1 .photo1 {
+    margin-top: -223px;
+    margin-right: 20px; }
+  .entrada1 h5 {
+    font-family: "Oswald";
+    color: #E8663C;
+    font-size: 1em;
+    margin-left: 100px;
+    margin-top: 20px; }
+  .entrada1 h6 {
+    margin-left: 100px;
+    color: #A0A0A0;
+    font-size: 1em; }
+  .entrada1 ul {
+    padding: 0;
+    margin-left: 95px; }
+    .entrada1 ul a {
+      font-size: 1em;
+      color: #A0A0A0;
+      margin: 0px 5px; }
+  .entrada1 h4 {
+    font-family: "Oswald";
+    color: #E8663C;
+    font-size: 1.8em;
+    margin-top: 20px; }
+
+.art {
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-left: 20px; }
+
+.art2 {
+  font-size: 1.2em;
+  margin-left: 20px; }
+
+.contenido {
+  display: -webkit-box;
+  margin-top: 40px; }
+  .contenido h3 {
+    font-family: "Oswald";
+    color: #E8663C;
+    font-size: 1.6em;
+    margin-top: 5px; }
+  .contenido a {
+    color: #A0A0A0;
+    text-decoration: none;
+    margin-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */
