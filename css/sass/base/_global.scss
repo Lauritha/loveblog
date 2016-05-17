@@ -141,3 +141,78 @@ footer{
 		font-size: 22px;
 	}
 }
+/*estilos de about us*/
+.supreme{
+	background-color: $rojo-oscuro;
+	font-family: $oswald;
+	color: white;
+	font-size: 22px;
+	padding: 10px;
+	display: inline-block;
+	width: 90%;
+	height: 47px;
+}
+.costado{
+	margin-top: -9px;
+}
+.entrada{
+	margin-top: $mr-top;
+	.autor{
+		margin-left: 30px;
+		padding: 5px;
+		border: 1px solid $gris;
+		margin-top: $mr-top;
+	}
+}
+section{
+	p{
+		font-weight: 500;
+		margin-top: $mr-top;
+	}
+	.articulo{
+		margin-left: 100px;
+		border-left: solid 10px $rojo-oscuro;
+		width: 650px;
+		p{
+			margin-left: $mr-top;
+			color: $rojo-oscuro;
+		}
+	}
+}
+.aside{
+	h5{
+		font-family: $oswald;
+		color: $rojo-oscuro;
+		font-size: 1.5em;
+		margin-top: 20px;
+	}
+	.articles{
+		height: 150px;
+		margin-top: 30px;
+	}
+	.lista2{
+		display: block;
+		a{
+			font-size: 16px;
+			color: black;
+			font-family: $yanone;
+			&:hover{
+				color: $rojo-claro;
+			}
+		}
+	}
+	ul{
+		margin-top: 15px;
+	}
+	.linea-1{
+		margin-bottom: 5px;
+		img{
+			border: solid 1px $rojo-oscuro;
+		}
+	}
+	.linea-2{
+		img{
+			border: solid 1px $rojo-oscuro;
+		}
+	}
+}
